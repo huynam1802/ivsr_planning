@@ -1,0 +1,10 @@
+<launch>
+	<node name="spline_optimization_example" pkg="ewok_optimization" type="spline_optimization_example3" output="screen">
+ 		<rosparam param="x_pos">[0.0, 0.0, 0.0]</rosparam> 
+		<rosparam param="y_pos">[1.0, 15.0, 0.0]</rosparam> 
+		<rosparam param="z_pos">[3.0, 3.0, 2.0]</rosparam>
+
+
+		<param name="number_of_target" type="int" value="3"/>
+	</node>
+</launch>
